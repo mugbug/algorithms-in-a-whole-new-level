@@ -15,7 +15,6 @@ if __name__ == '__main__':
 
     # print first MAX lines of Pascal's Triangle
     for n in range(MAX):
-        print_arr = []
         for k in range(n+1):
             print(binom(n, k), ' ', end = '')
         print()
