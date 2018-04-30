@@ -20,7 +20,7 @@ for i in range(len(count)):
         count[i+1] += count[i] 
 
 for i in range(len(array)):
-    sorted_array[count[array[i]]-1] = array[i]
     count[array[i]] -= 1
+    sorted_array[count[array[i]]] = array[i]
 
 print(sorted_array)
